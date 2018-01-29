@@ -1,0 +1,25 @@
+{
+  "name": "static_server",
+  "version": "1.0.0",
+  "description": "node static server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w src --exec \"babel-node src --presets env\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "static",
+    "server"
+  ],
+  "author": "Loogeek",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.14.11"
+  }
+}
